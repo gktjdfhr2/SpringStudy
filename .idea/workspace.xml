@@ -5,18 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad8e7972-170e-4efe-854b-34b12df130e4" name="Changes" comment="Feat: SpringBoot 초기 생성">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/SpringStudyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/src/test/java/com/example/springstudy/SpringStudyApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/MemberApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/discount/DiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/discount/RateDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/repository/MemoryMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/service/member/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/service/member/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/service/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/service/order/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springStudy/src/test/java/com/example/springstudy/member/MemberServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springStudy/src/test/java/com/example/springstudy/order/OrderServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springStudy/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springStudy/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +39,9 @@
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$/demo">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/springStudy">
           <activation />
         </task>
         <projects_view>
@@ -61,6 +68,15 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -84,6 +100,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "C:/springStudy",
@@ -92,10 +109,56 @@
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.33333334",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "spring.configuration.checksum": "9de0862494cc3aa211be7c76dc6b547b"
+    "spring.configuration.checksum": "9859230da7818c48dcf285a50e0b5407"
   }
 }]]></component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.41">
+  <component name="RunManager" selected="Gradle.MemberServiceTest">
+    <configuration name="MemberServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/springStudy" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.springstudy.member.MemberServiceTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemberServiceTest.join (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/springStudy" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.springstudy.member.MemberServiceTest.join&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="SpringStudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springStudy.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springstudy.SpringStudyApplication" />
@@ -181,6 +244,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MemberServiceTest" />
+        <item itemvalue="Gradle.MemberServiceTest.join (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -191,8 +260,17 @@
       <option name="presentableId" value="Default" />
       <updated>1662384070930</updated>
       <workItem from="1662384072421" duration="1404000" />
-      <workItem from="1663249952380" duration="1335000" />
+      <workItem from="1663249952380" duration="2720000" />
+      <workItem from="1663489106778" duration="4423000" />
     </task>
+    <task id="LOCAL-00001" summary="Feat: SpringBoot 초기 생성">
+      <created>1663251449380</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663251449380</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
