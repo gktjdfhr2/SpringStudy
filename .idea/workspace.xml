@@ -5,22 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad8e7972-170e-4efe-854b-34b12df130e4" name="Changes" comment="Feat: SpringBoot 초기 생성">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/MemberApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/discount/DiscountPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/discount/RateDiscountPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/member/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/repository/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/repository/MemoryMemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/service/member/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/service/member/MemberServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/service/order/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/service/order/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/src/test/java/com/example/springstudy/member/MemberServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springStudy/src/test/java/com/example/springstudy/order/OrderServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/discount/FixDiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/eNum/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/service/order/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springStudy/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/springStudy/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/MemberApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/MemberApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/service/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/service/order/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/service/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springStudy/src/main/java/com/example/springstudy/service/order/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springStudy/src/test/java/com/example/springstudy/order/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springStudy/src/test/java/com/example/springstudy/order/OrderServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,17 +42,7 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="demo" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="demo" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="demo" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="springStudy" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -103,16 +86,23 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/springStudy",
+    "last_opened_file_path": "C:/Users/HASEONGROK/Desktop/SpringStudy/springStudy",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.33333334",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "spring.configuration.checksum": "9859230da7818c48dcf285a50e0b5407"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.MemberServiceTest">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.springstudy.discount" />
+      <recent name="com.example.springstudy.service.order" />
+      <recent name="com.example.springstudy.eNum" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.OrderServiceTest.createOrder">
     <configuration name="MemberServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -158,6 +148,40 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
+    </configuration>
+    <configuration name="OrderServiceTest.createOrder" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/springStudy" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.springstudy.order.OrderServiceTest.createOrder&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpringStudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springStudy.main" />
@@ -246,6 +270,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.OrderServiceTest.createOrder" />
         <item itemvalue="Gradle.MemberServiceTest" />
         <item itemvalue="Gradle.MemberServiceTest.join (1)" />
       </list>
@@ -262,6 +287,7 @@
       <workItem from="1662384072421" duration="1404000" />
       <workItem from="1663249952380" duration="2720000" />
       <workItem from="1663489106778" duration="4423000" />
+      <workItem from="1664203652160" duration="829000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: SpringBoot 초기 생성">
       <created>1663251449380</created>

@@ -3,7 +3,6 @@ package com.example.springstudy.service.order;
 import com.example.springstudy.discount.DiscountPolicy;
 import com.example.springstudy.discount.FixDiscountPolicy;
 import com.example.springstudy.member.Member;
-import com.example.springstudy.order.Order;
 import com.example.springstudy.repository.MemberRepository;
 import com.example.springstudy.repository.MemoryMemberRepository;
 
