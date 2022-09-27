@@ -1,5 +1,7 @@
 package com.example.springstudy.member;
 
+import com.example.springstudy.eNum.Grade;
+
 public class Member {
     private Long id;
     private String name;

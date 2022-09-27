@@ -3,15 +3,14 @@ package com.example.springstudy.discount;
 import com.example.springstudy.eNum.Grade;
 import com.example.springstudy.member.Member;
 
-public class RateDiscountPolicy implements DiscountPolicy{
+public class FixDiscountPolicy implements DiscountPolicy {
 
-    private int discountRateAmmount;
+    private int discountFixAmmount = 1000;
 
     @Override
     public int discount(Member member, int price) {
         if(member.getGrade() == Grade.VIP) {
-            discountRateAmmount = (int)(price *  0.1);
-            return discountRateAmmount;
-        }else return 0;
+            return discountFixAmmount;
+        } else return 0;
     }
 }
