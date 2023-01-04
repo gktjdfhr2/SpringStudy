@@ -1,13 +1,9 @@
 package com.example.springstudy.beanfind;
 
-import com.example.springstudy.config.AppConfig;
-import com.example.springstudy.discount.DiscountPolicy;
 import com.example.springstudy.repository.MemberRepository;
 import com.example.springstudy.repository.MemoryMemberRepository;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.NoUniqueBeanDefinitionException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

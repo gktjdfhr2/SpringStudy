@@ -1,6 +1,5 @@
 package com.example.springstudy;
 
-import com.example.springstudy.config.AppConfig;
 import com.example.springstudy.eNum.Grade;
 import com.example.springstudy.member.Member;
 import com.example.springstudy.service.member.MemberService;

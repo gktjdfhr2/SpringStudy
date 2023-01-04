@@ -1,10 +1,8 @@
 package com.example.springstudy.member;
 
-import com.example.springstudy.config.AppConfig;
+import com.example.springstudy.AppConfig;
 import com.example.springstudy.eNum.Grade;
-import com.example.springstudy.member.Member;
 import com.example.springstudy.service.member.MemberService;
-import com.example.springstudy.service.member.MemberServiceImpl;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

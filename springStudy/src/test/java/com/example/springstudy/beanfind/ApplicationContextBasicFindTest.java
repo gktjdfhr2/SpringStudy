@@ -1,6 +1,6 @@
 package com.example.springstudy.beanfind;
 
-import com.example.springstudy.config.AppConfig;
+import com.example.springstudy.AppConfig;
 import com.example.springstudy.service.member.MemberService;
 import com.example.springstudy.service.member.MemberServiceImpl;
 import org.assertj.core.api.Assertions;
@@ -8,7 +8,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.util.Assert;
 
 import static org.junit.jupiter.api.Assertions.*;
 

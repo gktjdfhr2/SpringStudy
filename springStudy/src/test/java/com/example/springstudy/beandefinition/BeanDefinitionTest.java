@@ -1,6 +1,6 @@
 package com.example.springstudy.beandefinition;
 
-import com.example.springstudy.config.AppConfig;
+import com.example.springstudy.AppConfig;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.config.BeanDefinition;

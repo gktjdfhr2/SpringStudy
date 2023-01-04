@@ -1,6 +1,6 @@
 package com.example.springstudy.singleton;
 
-import com.example.springstudy.config.AppConfig;
+import com.example.springstudy.AppConfig;
 import com.example.springstudy.service.member.MemberService;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
